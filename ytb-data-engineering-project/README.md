@@ -7,7 +7,7 @@ Ce projet vise à gérer en toute sécurité, rationaliser et effectuer des anal
 ### Métriques liéees aux videos
     - Vues moyennes par vidéo : Moyenne des vues obtenues par chaque vidéo.
     - Taux d'engagement :
-    Calculé comme : (likes + commentaires) / vues.
+    Calculé comme ceci : (likes + commentaires) / vues.
     Permet de mesurer l'interaction des utilisateurs avec le contenu.
     - Top vidéos par région :
     Vidéos ayant le plus grand nombre de vues dans chaque région.
