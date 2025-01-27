@@ -79,6 +79,10 @@ Une fois les tables crées, nous pouvons les requeter de la manière suivante po
 
 Il est de mauvaise pratique de toujours faire appel a des jointures car avaec la croissance de la quantité de données les requetes deviennent de plus en plus couteuses, c'est pour cela que nous allons mettre en place un deuxième ETL processant les données de nos deux datasets et les stockant dans un nouveau bucket s3 pret à etre analysé avec un crawler et requeté.
 
+_(retrouvez le code de cet ETL dans le dossier "code")_
+![image](https://github.com/user-attachments/assets/a8298cfc-9948-472e-bc83-eaed26990ca4)
+
+
 ## Résultats
 
 
