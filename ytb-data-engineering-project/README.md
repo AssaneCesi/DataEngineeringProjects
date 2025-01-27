@@ -1,7 +1,7 @@
 # Projet d'Analyse YouTube de Données par Assane Thiaw
 
 ## Introduction
-Ce projet vise à collecter, rationaliser et stocker des données structurées et semi-structurées de vidéos YouTube afin d'effectuer des analyses pertinentes
+Ce projet vise à collecter, rationaliser et stocker des données structurées et semi-structurées de vidéos YouTube afin d'effectuer des analyses pertinentes qui vont nous permettre de répondre à des questions comme qu'est ce qui rend une vidéo populaire.
  
 ## Métriques
 ### Métriques liéees aux videos
@@ -60,6 +60,13 @@ Voici les métriques que l'on aimerait relever sur notre dataset:
 Ce jeu de données Kaggle contient des statistiques (fichiers CSV) sur les vidéos YouTube populaires quotidiennes sur plusieurs mois. Jusqu'à 200 vidéos tendance sont publiées chaque jour pour plusieurs régions. Les données pour chaque région sont dans un fichier distinct. Les informations incluent le titre de la vidéo, le nom de la chaîne, l'heure de publication, les tags, les vues, les likes, les dislikes, la description et le nombre de commentaires. Un champ **category_id**, qui varie selon la région, est également inclus dans le fichier JSON associé.
 
 [Jeu de données Kaggle](https://www.kaggle.com/datasets/datasnaek/youtube-new)
+
+Afin de créer des tables cohérentes nous avons séparés les données de type json et csv lors de l'upload des fichiers sur S3 avec les commandes suivantes:
+
+![image](https://github.com/user-attachments/assets/de510cdd-ec6b-4b00-8888-77099a6f6187)
+
+![image](https://github.com/user-attachments/assets/846943de-3d1b-4d3c-92c9-ccbe47f7ece7)
+
 
 ## Diagramme d'Architecture
 ![Diagramme d'Architecture](architecture.jpeg)
