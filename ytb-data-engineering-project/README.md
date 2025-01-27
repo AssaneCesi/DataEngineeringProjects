@@ -72,6 +72,9 @@ Afin de créer des tables cohérentes nous avons séparés les données de type 
 ![Diagramme d'Architecture](architecture.jpeg)
 
 Une fois notre dataset stocké dans notre bucket s3, nous allons préparer les données via un ETL avant de les requeter avec un crawler pour créer des tables et un Data catalog sur AWS Glue pour ensuite pouvoir les requeter avec AWS Athena :
+
+_(retrouvez le code de cet ETL dans le fichier suivant: de-on-ytb-cleansed-csv-o-parquet)_
+_(retrouvez le code AWS Lambda dans le fichier suivant: de-on-ytb-raw-eu-north-1-lambda-json-parquet)_
 ![image](https://github.com/user-attachments/assets/4ac88a22-5690-4e2c-8b04-4520298b7356)
 
 Une fois les tables crées, nous pouvons les requeter de la manière suivante pour pouvoir visualiser nos deux datasets ensemble:
