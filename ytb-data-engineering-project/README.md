@@ -1,10 +1,13 @@
 # Projet d'Analyse YouTube de Données par Assane Thiaw
 
 ## Introduction
-Ce projet vise à gérer en toute sécurité, rationaliser et effectuer des analyses sur les données structurées et semi-structurées des vidéos YouTube, en se basant sur les catégories de vidéos et les métriques de tendance.
-
+Ce projet vise à collecter, rationaliser et stocker des données structurées et semi-structurées de vidéos YouTube afin d'effectuer des analyses pertinentes
+ 
 ## Métriques
 ### Métriques liéees aux videos
+
+Voici les métriques que l'on aimerait relever sur notre dataset:
+
     - Vues moyennes par vidéo : Moyenne des vues obtenues par chaque vidéo.
     - Taux d'engagement :
     Calculé comme ceci : (likes + commentaires) / vues.
