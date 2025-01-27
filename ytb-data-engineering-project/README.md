@@ -71,6 +71,11 @@ Afin de créer des tables cohérentes nous avons séparés les données de type 
 ## Diagramme d'Architecture
 ![Diagramme d'Architecture](architecture.jpeg)
 
+Une fois notre dataset stocké dans notre bucket s3, nous allons préparer les données via un ETL avant de les requeter avec un crawler pour créer une table et un Data catalog sur AWS Glue:
+![image](https://github.com/user-attachments/assets/4ac88a22-5690-4e2c-8b04-4520298b7356)
+
+
+
 ## Résultats
 
 
