@@ -24,11 +24,9 @@ Voici les métriques que l'on aimerait relever sur notre dataset:
 
 ## Objectifs du Projet
 1. **Ingestion des Données** — Construire un mécanisme pour ingérer des données provenant de différentes sources.
-2. **Système ETL** — Nous recevons des données brutes, qu'il faut transformer en un format approprié.
-3. **Lac de Données** — Comme nous recevrons des données de multiples sources, nous avons besoin d'un référentiel centralisé pour les stocker.
-4. **Évolutivité** — Au fur et à mesure que la taille des données augmente, nous devons nous assurer que notre système évolue en conséquence.
-5. **Cloud** — Nous ne pouvons pas traiter de vastes quantités de données sur un ordinateur local, nous devons donc utiliser le cloud, dans ce cas, AWS.
-6. **Reporting** — Construire un tableau de bord pour répondre aux questions posées précédemment.
+2. **Évolutivité** — Au fur et à mesure que la taille des données augmente, nous devons nous assurer que notre système évolue en conséquence.
+3. **Cloud** — Nous ne pouvons pas traiter de vastes quantités de données sur un ordinateur local, nous devons donc utiliser le cloud, dans ce cas, AWS.
+4. **Reporting** — Construire un tableau de bord pour répondre aux questions posées précédemment.
 
 ## Services Utilisés
 1. **Amazon S3** : Amazon S3 est un service de stockage d'objets offrant une évolutivité, une disponibilité des données, une sécurité et des performances élevées.
