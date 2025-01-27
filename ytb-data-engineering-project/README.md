@@ -21,24 +21,6 @@ Voici les métriques que l'on aimerait relever sur notre dataset:
     - Ratio likes/dislikes :
     Permet de comprendre la réception du contenu par les utilisateurs.
 
-### Métriques liées aux chaînes
-    - Top chaînes par nombre de vidéos tendances :Les chaînes ayant le plus grand nombre de vidéos apparaissant dans les tendances.
-    - Popularité moyenne par chaîne :Moyenne des vues, likes et commentaires par vidéo pour chaque chaîne.
-    - Diversité des catégories par chaîne :Nombre de catégories dans lesquelles une chaîne publie des vidéos.
-
-### Métriques liées aux catégories
-    - Catégorie la plus populaire par région :Basée sur le total des vues ou du temps passé en tendance.
-    - Taux d'engagement par catégorie :(likes + commentaires) / vues pour chaque catégorie.
-    - Croissance des tendances par catégorie :Analyse des catégories qui deviennent plus fréquentes dans les tendances au fil du temps.
-
-### Métriques temporelles
-    - Heure optimale de publication :Heures où les vidéos publiées reçoivent le plus de vues ou d'engagement.
-    - Jour de la semaine avec le plus d'engagement :Identifier les jours où les vidéos tendances génèrent le plus d'interactions.
-    - Saisonnalité des tendances :Analyse des variations dans les vues ou les engagements selon les mois ou saisons.
-
-### Métriques temporelles
-    - Comparaison des tendances par région :Vidéos, catégories ou chaînes populaires par région.
-    - Taux d'engagement par région : Mesurer l'interaction moyenne des utilisateurs dans différentes régions.
 
 ## Objectifs du Projet
 1. **Ingestion des Données** — Construire un mécanisme pour ingérer des données provenant de différentes sources.
