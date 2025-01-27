@@ -71,10 +71,13 @@ Afin de créer des tables cohérentes nous avons séparés les données de type 
 ## Diagramme d'Architecture
 ![Diagramme d'Architecture](architecture.jpeg)
 
-Une fois notre dataset stocké dans notre bucket s3, nous allons préparer les données via un ETL avant de les requeter avec un crawler pour créer une table et un Data catalog sur AWS Glue:
+Une fois notre dataset stocké dans notre bucket s3, nous allons préparer les données via un ETL avant de les requeter avec un crawler pour créer des tables et un Data catalog sur AWS Glue pour ensuite pouvoir les requeter avec AWS Athena :
 ![image](https://github.com/user-attachments/assets/4ac88a22-5690-4e2c-8b04-4520298b7356)
 
+Une fois les tables crées, nous pouvons les requeter de la manière suivante pour pouvoir visualiser nos deux datasets ensemble:
+![image](https://github.com/user-attachments/assets/2f627b22-e074-4dc1-ba16-05da8770a340)
 
+Il est de mauvaise pratique de toujours faire appel a des jointures car avaec la croissance de la quantité de données les requetes deviennent de plus en plus couteuses, c'est pour cela que nous allons mettre en place un deuxième ETL processant les données de nos deux datasets et les stockant dans un nouveau bucket s3 pret à etre analysé avec un crawler et requeté.
 
 ## Résultats
 
