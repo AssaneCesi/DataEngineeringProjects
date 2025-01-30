@@ -43,7 +43,10 @@ Le dataset utilisé provient de [Kaggle](https://www.kaggle.com/datasets/datasna
 - **Fichiers JSON associés** : contiennent des informations supplémentaires comme `category_id`.
 
 **Séparation des Données :**
-- Les fichiers JSON et CSV sont stockés séparément dans des buckets S3 à l'aide de commandes adaptées.
+- Les fichiers JSON et CSV sont stockés séparément dans des buckets S3 à l'aide de commandes adaptées:
+
+![commandes ingestion des données dans le bucket 1](image-1.png)
+![commandes ingestion des données dans le bucket 2](image-2.png)
 
 ---
 
@@ -56,8 +59,11 @@ Voici l'architecture générale utilisée pour ce projet :
 1. Stockage des datasets bruts sur S3.
 2. Préparation des données via des workflows ETL sur AWS Glue.
 3. Création de tables et d'un catalogue de données avec AWS Glue Crawlers.
+![Diagramme Data Wrangling](image-3.png)
 4. Requêtage des tables avec AWS Athena pour effectuer des analyses.
+![Requetes SQL AWS Athena](image-4.png)
 5. Création d'un deuxième ETL pour optimiser les performances et éviter les jointures coûteuses à long terme.
+![ETL 2](image-5.png)
 6. Analyse finale et visualisation des données avec Amazon QuickSight.
 
 ---
